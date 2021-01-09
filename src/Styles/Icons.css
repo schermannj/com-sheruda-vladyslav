@@ -1,0 +1,57 @@
+.icon {
+    background-color: #0D1C2E;
+    display: inline-block;
+    mask-size: cover;
+    width: 28px;
+    height: 28px;
+}
+
+.img-icon {
+    display: inline-block;
+    background-size: contain;
+    width: 56px;
+    height: 56px;
+}
+
+.icon-www {
+    background-image: url("/src/assets/services/www.svg");
+}
+
+.icon-db {
+    background-image: url("/src/assets/services/db.svg");
+}
+
+.icon-cloud {
+    background-image: url("/src/assets/services/cloud.svg");
+}
+
+.icon-server {
+    background-image: url("/src/assets/services/server.svg");
+}
+
+.icon-google {
+    mask: url("/src/assets/social/google.svg");
+}
+
+.icon-linkedin {
+    mask: url("/src/assets/social/linkedin.svg");
+}
+
+.icon-github {
+    mask: url("/src/assets/social/github.svg");
+}
+
+.icon-twitter {
+    mask: url("/src/assets/social/twitter.svg");
+}
+
+.icon.medium {
+    width: 56px;
+    height: 56px;
+    mask-size: cover;
+}
+
+.icon.light {
+    background-color: #FFFFFF;
+    opacity: 0.2;
+}

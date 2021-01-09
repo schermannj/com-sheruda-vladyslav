@@ -1,0 +1,28 @@
+.skill {
+    width: 25%;
+    margin-bottom: 7%;
+}
+
+.skill h3.title {
+    margin-top: 1.4em;
+    margin-bottom: 0.7em;
+}
+
+.skill p.body-text {
+    margin-top: 0;
+    margin-bottom: 0.35em;
+}
+
+.skill p.body-text.secondary {
+    margin-top: 0;
+}
+
+.skill .img-icon {
+    background-color: #0635C9;
+}
+
+@media screen and (max-device-width: 767px) {
+    .skill {
+        width: 50%;
+    }
+}

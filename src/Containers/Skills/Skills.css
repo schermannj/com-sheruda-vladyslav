@@ -1,0 +1,15 @@
+.skills-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15%;
+}
+
+.skills-container .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    align-self: center;
+    padding-top: 7%;
+}

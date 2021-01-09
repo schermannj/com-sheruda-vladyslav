@@ -1,0 +1,36 @@
+.professional-experience {
+    padding: 2vh 3vh;
+    width: 37%;
+    margin-bottom: 4vh;
+    margin-right: 3vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+    border-radius: 12px;
+    -webkit-box-shadow: 0 0 32px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.professional-experience h3.title {
+    margin-bottom: 0.666em;
+}
+
+.professional-experience p.body-text {
+    margin-top: 0;
+    margin-bottom: 0.45em;
+}
+
+.professional-experience p.body-text.secondary {
+    margin-top: 0;
+    margin-bottom: 2.3em;
+}
+
+@media screen and (max-device-width: 800px) {
+    .professional-experience {
+        width: 100%;
+    }
+}

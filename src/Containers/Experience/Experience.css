@@ -1,0 +1,13 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15%;
+}
+
+.experience-container .content {
+    padding-top: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+}

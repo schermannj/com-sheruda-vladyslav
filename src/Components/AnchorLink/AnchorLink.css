@@ -1,0 +1,11 @@
+.anchor-link {
+    font-size: 1.125em;
+    margin-right: 4vw;
+}
+
+
+@media screen and (max-device-width: 767px) {
+    .anchor-link {
+        display: none;
+    }
+}

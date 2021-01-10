@@ -2,7 +2,11 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding-bottom: 15%;
+    padding-bottom: min(180px, 20%);
+}
+
+.skills-container h2.title {
+    margin: 0;
 }
 
 .skills-container .content {
@@ -11,5 +15,5 @@
     flex-wrap: wrap;
     width: 80%;
     align-self: center;
-    padding-top: 7%;
+    padding-top: min(64px, 20%);
 }

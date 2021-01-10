@@ -13,7 +13,7 @@
 }
 
 .header {
-    height: 10%;
+    height: 15%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -28,7 +28,7 @@
 }
 
 .hero-container .content {
-    height: 80%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +41,7 @@
 }
 
 .hero-footer.links > a {
-    margin-right: 5vw;
+    margin-right: 4vw;
 }
 
 .hero-container .content .title {

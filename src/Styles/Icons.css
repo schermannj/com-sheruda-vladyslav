@@ -8,7 +8,7 @@
 
 .img-icon {
     display: inline-block;
-    background-size: contain;
+    background-size: cover;
     width: 56px;
     height: 56px;
 }

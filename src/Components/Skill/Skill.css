@@ -1,6 +1,6 @@
 .skill {
     width: 25%;
-    margin-bottom: 7%;
+    margin-bottom: min(56px, 4em);
 }
 
 .skill h3.title {

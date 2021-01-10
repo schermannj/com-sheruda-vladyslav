@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 15%;
+    padding-bottom: min(180px, 20%);
 }
 
 .services-container .do-block {

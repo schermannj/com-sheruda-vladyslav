@@ -1,6 +1,13 @@
-.anchor-link {
+a.anchor-link {
     font-size: 1.125em;
     margin-right: 4vw;
+    border: none;
+    text-decoration: none;
+}
+
+a.anchor-link:hover {
+    color: #0635C9;
+    border-bottom: 2px solid #0635C9;
 }
 
 

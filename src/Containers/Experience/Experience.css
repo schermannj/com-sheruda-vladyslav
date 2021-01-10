@@ -1,11 +1,15 @@
 .experience-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 15%;
+    padding-bottom: min(180px, 20%);
+}
+
+.experience-container h2.title {
+    margin: 0;
 }
 
 .experience-container .content {
-    padding-top: 10%;
+    padding-top: min(64px, 10%);
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;

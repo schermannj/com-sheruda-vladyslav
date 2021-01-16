@@ -3,6 +3,7 @@ const config = {
   linkedin: 'vladyslav-sheruda-042b0bb6',
   github: 'schermannj',
   twitter: 'schrmnn',
+  mixpanel_host: 'https://mixpanel.sheruda.com',
   mixpanel_token: process.env.REACT_APP_MIXPANEL_TOKEN
 };
 

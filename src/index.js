@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import mixpanel from 'mixpanel-browser';
 import config from './config';
 
-mixpanel.init(config.mixpanel_token);
+mixpanel.init(config.mixpanel_token, { api_host: config.mixpanel_host });
 
 ReactDOM.render(
   <React.StrictMode>

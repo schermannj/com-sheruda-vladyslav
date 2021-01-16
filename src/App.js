@@ -10,7 +10,7 @@ import config from './config';
 import c from './constants';
 
 function App() {
-  mixpanel.track(c.mixpanel.open_home_action, { api_host: config.mixpanel_host });
+  mixpanel.track(c.mixpanel.open_home_action);
 
   return (
     <>

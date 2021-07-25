@@ -7,9 +7,20 @@ export default function Experience() {
       <h2 className={'title'}>PROFESSIONAL EXPERIENCE</h2>
       <div className={'content'}>
         <ProfessionalExperience
+          position={'Solutions Engineer'}
+          company={'LobbyCRE'}
+          time={'April 2019 - Present'}
+          responsibilities={[
+            'Designed and implemented various data-/event- driven micro-services, ETL pipelines and GraphQL/RESTFul API services.',
+            'Created presentations, documentation, was responsible for production deployments.',
+            'Configured CI/CD pipelines.',
+            'Tight communication with business folks to deliver the best solutions.',
+          ]}
+        />
+        <ProfessionalExperience
           position={'Team Leader / Senior Software Engineer'}
-          company={'NDA'}
-          time={'March 2018 - Present'}
+          company={'Aimprosoft'}
+          time={'March 2018 - April 2021'}
           responsibilities={[
             'Interviewed, trained and managed a team of over 25 developers.',
             'Reviewed time tracking reports, conducted salary reviews and organized team-building events.',
@@ -19,7 +30,7 @@ export default function Experience() {
         />
         <ProfessionalExperience
           position={'Software Engineer'}
-          company={'NDA'}
+          company={'Aimprosoft'}
           time={'July 2014 - March 2018'}
           responsibilities={[
             'Researched, designed and implemented over 10 scalable applications for data extraction, analysis and management.',

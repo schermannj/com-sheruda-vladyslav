@@ -9,7 +9,7 @@ export default function ProfessionalExperience({ position, company, time, respon
       <p className={'body-text secondary'}>{time}</p>
       <ul>
         {
-          responsibilities.map(it => (<li className={"body-text"}>{it}</li>))
+          responsibilities.map(it => (<li key={it.toLowerCase()} className={"body-text"}>{it}</li>))
         }
       </ul>
     </div>

@@ -9,20 +9,23 @@ export default function Services() {
       </div>
       <div className={'col right'}>
         <DoBlock icon={'www'} header={'App. Interface'} list={[
-          'Work with React and Vue, in case its really needed.',
+          'Work with React/Vue or vanilla js.',
           'Design truly RESTful API and GraphQL actions according to the best practices.',
           'API versioning and documentation.'
         ]}/>
         <DoBlock icon={'server'} header={'Server side'} list={[
-          'Design and implement back-end solutions for business in Python and NodeJS',
+          'Design and implement back-end solutions for business in Python and NodeJS.',
           'Work only with container based and serverless applications.'
         ]}/>
         <DoBlock icon={'cloud'} header={'Cloud solutions'} list={[
           'Architect solutions using cloud services like AWS and Google Cloud.',
-          'Estimate monthly billings and try to provide the cheapest solution.'
+          'Estimate monthly billings and provide the cheapest solution.'
         ]}/>
         <DoBlock icon={'db'} header={'Database'} list={[
-          'Design database structure and do database optimizations.'
+          'Create Entity-Relationship diagrams.',
+          'Configure database environment.',
+          'Write migrations.',
+          'Do database optimizations.'
         ]}/>
       </div>
     </div>

@@ -17,3 +17,51 @@
     align-self: center;
     padding-top: min(64px, 20%);
 }
+
+.icon-js {
+    background-image: url("/src/assets/skills/JavaScript.png");
+}
+
+.icon-aws {
+    background-image: url("/src/assets/skills/AWS.png");
+}
+
+.icon-py3 {
+    background-image: url("/src/assets/skills/Pyton.png");
+}
+
+.icon-node {
+    background-image: url("/src/assets/skills/Node.JS.png");
+}
+
+.icon-sls {
+    background-image: url("/src/assets/skills/Serverless.png");
+}
+
+.icon-nosql {
+    background-image: url("/src/assets/skills/NOSQL.png");
+}
+
+.icon-sql {
+    background-image: url("/src/assets/skills/SQL.png");
+}
+
+.icon-es {
+    background-image: url("/src/assets/skills/Elasticsearch.png");
+}
+
+.icon-react {
+    background-image: url("/src/assets/skills/React.JS.png");
+}
+
+.icon-pd {
+    background-image: url("/src/assets/skills/Pandas.png");
+}
+
+.icon-agile {
+    background-image: url("/src/assets/skills/Agile.png");
+}
+
+.icon-docker {
+    background-image: url("/src/assets/skills/Docker.png");
+}

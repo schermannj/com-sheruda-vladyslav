@@ -5,7 +5,7 @@ export default function DoBlock({ icon, header, list }) {
       <h3 className={'title'}>{header}</h3>
       <ul>
         {
-          list.map(it => (<li className={'body-text'}>{it}</li>))
+          list.map(it => (<li key={it.toLowerCase()} className={'body-text'}>{it}</li>))
         }
       </ul>
     </div>

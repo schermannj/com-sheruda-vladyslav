@@ -17,10 +17,6 @@
     margin-top: 0;
 }
 
-.skill .img-icon {
-    background-color: #0635C9;
-}
-
 @media screen and (max-device-width: 767px) {
     .skill {
         width: 50%;

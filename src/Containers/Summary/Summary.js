@@ -10,7 +10,7 @@ export default function Summary() {
         Senior Software Engineer with <b>{years} years of experience</b> in software and databases design,
         development and integration. Expert in diverse programming languages, including <b>JavaScript </b>
         and <b>Python</b>. Self-directed leader with expertise in <b>AWS Cloud</b> and strong background in
-        developing systems for <b>Financial</b> and <b>Real Estate</b> industries.
+        developing systems for <b>Financial</b>, <b>Real Estate</b> and <b>Travel</b> industries.
       </p>
     </div>
   );

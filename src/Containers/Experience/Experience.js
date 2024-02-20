@@ -7,6 +7,17 @@ export default function Experience() {
       <h2 className={'title'}>PROFESSIONAL EXPERIENCE</h2>
       <div className={'content'}>
         <ProfessionalExperience
+          position={'Tech Lead / Senior Engineer II'}
+          company={'Tiqets'}
+          time={'September 2021 - Present'}
+          responsibilities={[
+            'Managed and directed a team of senior engineers specializing in merchandising and discovery domain.',
+            'Improved landing pages performance by 6 times by migrating from stateful to stateless architecture and implementing infrastructure-level caching.',
+            'Re-designed and implemented core traffic tracking mechanism with extensibility, scalability and fault tolerance in mind.',
+            'Played a main role in making the company compliant with PSD2 regulations.'
+          ]}
+        />
+        <ProfessionalExperience
           position={'Solutions Engineer'}
           company={'LobbyCRE'}
           time={'April 2019 - Present'}

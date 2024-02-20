@@ -10,7 +10,9 @@ import config from './config';
 import c from './constants';
 
 function App() {
-  mixpanel.track(c.mixpanel.open_home_action);
+  if (config.mixpanel_token) {
+    mixpanel.track(c.mixpanel.open_home_action);
+  }
 
   return (
     <>
